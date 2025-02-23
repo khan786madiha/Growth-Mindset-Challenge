@@ -22,25 +22,14 @@ if user_input:
 else:
     st.warning("Tell us about your challenge to get started!")
 
-# # Reflection Section
-# st.header("📝 Reflect on Your Learning")
-# reflection = st.text_area("Write your reflections here:", placeholder="E.g., I learned that taking breaks helps me focus better.")
-
-# if reflection:
-#     st.success(f"✨ Great Insight! Your reflection: {reflection}")
-# else:
-#     st.info("Reflecting on past experiences helps you grow! Share your thoughts.")
-
-
+ # Reflection Section
 st.header("📝 Reflect on Your Learning")
-reflection = st.text_area("Write your reflections here:")
-
+reflection = st.text_area("Write your reflections here:", placeholder="E.g., I learned that taking breaks helps me focus better.")
 
 if reflection:
-    st.success(f"✨Great Insight! Your reflection")
+    st.success(f"✨ Great Insight! Your reflection: {reflection}")
 else:
-    st.info("Reflecting on past experience help you grow! Share your difficulties")
-
+    st.info("Reflecting on past experiences helps you grow! Share your thoughts.")
 
 # Section to Celebrate Wins
 st.header("🎉 Celebrate Your Wins!")
