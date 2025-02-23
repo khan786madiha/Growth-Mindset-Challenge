@@ -7,7 +7,7 @@ st.set_page_config(page_title="Growth Mindset Project", page_icon="🌟", layout
 
 # Title and Intro Section
 st.title("🌟 Growth Mindset Challenge: Web App with Streamlit 🌟")
-st.header("👋 Welcome to Your Growth Journey, Madiha Ali Khan (MAK)")
+st.header("👋 Welcome to Your Growth Journey with Madiha Ali Khan (MAK)")
 st.write("Embrace challenges, learn from mistakes, and unlock your full potential. This AI-powered app helps you on your path to growth.")
 
 # Inspirational Image Section
